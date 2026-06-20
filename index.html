@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>РэдПэт</title>
+    <meta name="title" content="РэдПэт" />
+    <meta name="description" content="Реальная помощь животным" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="РэдПэт" />
+    <meta property="og:description" content="Реальная помощь животным" />
+    <meta property="og:image" content="assets/images/og.jpeg" />
+    <meta property="og:image:alt" content="РэдПэт" />
+    <meta property="og:locale" content="ru_RU" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon/favicon-16x16.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="assets/images/favicon/manifest.json" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/images/favicon/android-chrome-192x192.png"
+    />
+    <meta name="theme-color" content="#fff" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <svg width="0" height="0" style="position:absolute">
+  <defs>
+    <mask id="petalsMaskDesktop" maskContentUnits="objectBoundingBox" maskUnits="objectBoundingBox">
+      <rect x="0" y="0.058" width="1" height="1" fill="white"/>
+      <ellipse cx="0.0357" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.1071" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.1786" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.25" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.3214" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.3929" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.4643" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.5357" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.6071" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.6786" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.75" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.8214" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.8929" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+      <ellipse cx="0.9643" cy="0.058" rx="0.0357" ry="0.058" fill="white"/>
+    </mask>
+    <mask id="petalsMaskTablet" maskContentUnits="objectBoundingBox" maskUnits="objectBoundingBox">
+      <rect x="0" y="0.0749" width="1" height="1" fill="white"/>
+      <ellipse cx="0.05" cy="0.0749" rx="0.05" ry="0.0749" fill="white"/>
+      <ellipse cx="0.15" cy="0.0749" rx="0.05" ry="0.0749" fill="white"/>
+      <ellipse cx="0.25" cy="0.0749" rx="0.05" ry="0.0749" fill="white"/>
+      <ellipse cx="0.35" cy="0.0749" rx="0.05" ry="0.0749" fill="white"/>
+      <ellipse cx="0.45" cy="0.0749" rx="0.05" ry="0.0749" fill="white"/>
+      <ellipse cx="0.55" cy="0.0749" rx="0.05" ry="0.0749" fill="white"/>
+      <ellipse cx="0.65" cy="0.0749" rx="0.05" ry="0.0749" fill="white"/>
+      <ellipse cx="0.75" cy="0.0749" rx="0.05" ry="0.0749" fill="white"/>
+      <ellipse cx="0.85" cy="0.0749" rx="0.05" ry="0.0749" fill="white"/>
+      <ellipse cx="0.95" cy="0.0749" rx="0.05" ry="0.0749" fill="white"/>
+    </mask>
+    <mask id="petalsMaskMobile" maskContentUnits="objectBoundingBox" maskUnits="objectBoundingBox">
+      <rect x="0" y="0.0714" width="1" height="1" fill="white"/>
+      <circle cx="0.0714" cy="0.0714" r="0.0714" fill="white"/>
+      <circle cx="0.2143" cy="0.0714" r="0.0714" fill="white"/>
+      <circle cx="0.3571" cy="0.0714" r="0.0714" fill="white"/>
+      <circle cx="0.5" cy="0.0714" r="0.0714" fill="white"/>
+      <circle cx="0.6429" cy="0.0714" r="0.0714" fill="white"/>
+      <circle cx="0.7857" cy="0.0714" r="0.0714" fill="white"/>
+      <circle cx="0.9286" cy="0.0714" r="0.0714" fill="white"/>
+    </mask>
+  </defs>
+</svg>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="logo">РэдПэт</a>
+          <a href="#about" class="nav-link">О нас</a>
+          <a href="#features" class="nav-link">Возможности</a>
+          <a href="#questions" class="nav-link">Вопросы</a>
+          <a href="#social" class="nav-link">Соцсети</a>
+          <a href="#download" class="nav-link">Скачать</a>
+          <button class="mobile-menu-trigger" aria-label="Открыть меню">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="9"
+              height="15"
+              viewBox="0 0 9 15"
+              fill="none"
+            >
+              <path
+                d="M1 0.999999L8 7.5L1 14"
+                stroke="#313131"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero sticky-section">
+      <img src="assets/images/hero.png" alt="Hero Background" class="hero-bg" />
+      <div class="hero-content">
+        <h1 class="hero-title">РэдПэт</h1>
+        <p class="hero-subtitle">Реальная помощь животным</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about sticky-section" id="about">
+      <div class="container">
+        <div class="about-layout">
+          <div class="about-title-wrapper reveal-item">
+            <h2 class="section-title about-title">Мы верим,<br />технологии могут<br />помогать</h2>
+          </div>
+          <div class="about-images reveal-item">
+            <img src="assets/images/about-left.png" alt="About Left" class="about-img about-left" />
+            <picture>
+              <source srcset="assets/images/about-right-mobile.png" media="(max-width: 48rem)" />
+              <source srcset="assets/images/about-right-tablet-sm.png" media="(max-width: 74.625rem)" />
+              <source srcset="assets/images/about-right-tablet-lg.png" media="(max-width: 90rem)" />
+              <img
+                src="assets/images/about-right.png"
+                alt="About Right"
+                class="about-img about-right"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Action Section -->
+    <section class="action sticky-section" id="features">
+      <div class="container">
+        <h2 class="section-title action-title reveal-item">Действуйте</h2>
+        <p class="action-text reveal-item">
+          Игры, факты, баллы, украшения — здесь есть всё, чтобы приятно провести время. А если
+          захотите сделать больше, подключите подписку. Теперь вы не просто играете, а помогаете
+          вымирающим видам.
+        </p>
+      </div>
+    </section>
+
+    <!-- Questions Section -->
+    <section class="questions sticky-section" id="questions">
+      <div class="container">
+        <div class="questions-wrapper">
+          <h2 class="section-title reveal-item">Остались вопросы?</h2>
+
+          <div class="questions-layout">
+            <div class="questions-side questions-left">
+              <div class="question-card slide-in-right">
+                <h3>Поддержка</h3>
+                <p>Напишите нам на support@redpet.com — ответим в течение дня</p>
+              </div>
+              <div class="question-card slide-in-center">
+                <h3>Без подписки</h3>
+                <p>Играйте, читайте факты, зовите друзей и участвуйте в командных сборах</p>
+              </div>
+            </div>
+
+            <div class="cat-illustration reveal-item">
+              <img src="assets/images/question.png" alt="Cute Cat" class="cat-image" />
+            </div>
+
+            <div class="questions-side questions-right">
+              <div class="question-card slide-in-left">
+                <h3>Зачем баллы?</h3>
+                <p>Тратьте на еду, игрушки и украшения для своего питомца</p>
+              </div>
+              <div class="question-card slide-in-center">
+                <h3>Новости</h3>
+                <p>@redpet_fund — фото спасённых зверей, отчёты и анонсы</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Section -->
+    <section class="social sticky-section" id="social">
+      <div class="container">
+        <h2 class="section-title social-title reveal-item">Наши соцсети</h2>
+      </div>
+
+      <div class="marquee-wrapper">
+        <div class="marquee-content" id="marqueeContent">
+          <div class="social-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="69"
+              height="69"
+              viewBox="0 0 69 69"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_56_1212)">
+                <path
+                  d="M0 33.12C0 17.507 0 9.70062 4.85031 4.85031C9.70062 0 17.507 0 33.12 0H35.88C51.493 0 59.2993 0 64.1497 4.85031C69 9.70062 69 17.507 69 33.12V35.88C69 51.493 69 59.2993 64.1497 64.1497C59.2993 69 51.493 69 35.88 69H33.12C17.507 69 9.70062 69 4.85031 64.1497C0 59.2993 0 51.493 0 35.88V33.12Z"
+                  fill="#FF94B2"
+                />
+                <path
+                  d="M36.7134 49.7095C20.9872 49.7095 12.0173 38.9283 11.6436 20.9883H19.5211C19.7798 34.1558 25.5872 39.7333 30.1872 40.8833V20.9883H37.605V32.3445C42.1475 31.8558 46.9194 26.6808 48.5294 20.9883H55.947C54.7108 28.0033 49.5358 33.1783 45.8558 35.3058C49.5358 37.0308 55.4298 41.5445 57.6723 49.7095H49.507C47.7533 44.247 43.3837 40.0208 37.605 39.4458V49.7095H36.7134Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_56_1212">
+                  <rect width="69" height="69" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="social-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="70"
+              height="70"
+              viewBox="0 0 70 70"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M35.752 69.8002C28.8824 69.8002 25.69 68.793 20.1408 64.7641C16.6308 69.2966 5.51579 72.8387 5.03102 66.7785C5.03102 62.2294 4.02815 58.3852 2.89156 54.1884C1.53774 49.0179 0 43.26 0 34.9169C0 14.9908 16.2798 0 35.5682 0C54.8732 0 69.9998 15.7294 69.9998 35.1016C70.0646 54.1741 54.742 69.6985 35.752 69.8002ZM36.0362 17.2234C26.6427 16.7366 19.3218 23.2668 17.7005 33.5068C16.3634 41.9843 18.7368 52.3082 20.7592 52.8454C21.7287 53.0804 24.169 51.0996 25.69 49.572C28.2051 51.317 31.1338 52.365 34.1809 52.6104C43.9141 53.0806 52.2308 45.6385 52.8842 35.8739C53.2647 26.0884 45.7707 17.8002 36.0362 17.2402V17.2234Z"
+                fill="#FF94B2"
+              />
+            </svg>
+          </div>
+          <div class="social-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="55"
+              height="79"
+              viewBox="0 0 55 79"
+              fill="none"
+            >
+              <path
+                d="M27.4916 39.1524C32.2199 39.1524 36.5094 37.1648 39.5804 34.0344C42.6513 30.904 44.6011 26.5313 44.6011 21.7115C44.6011 16.8916 42.6513 12.5189 39.5804 9.38851C36.5094 6.25808 32.2199 4.27051 27.4916 4.27051C22.7633 4.27051 18.4738 6.25808 15.4028 9.38851C12.3319 12.4692 10.3821 16.8419 10.3821 21.7115C10.3821 26.581 12.3319 30.904 15.4028 34.0344C18.4738 37.1648 22.8121 39.1524 27.4916 39.1524ZM22.0322 16.0469C23.4458 14.6059 25.3955 13.7115 27.5404 13.7115C29.7339 13.7115 31.6349 14.6059 33.0485 16.0469C34.4622 17.4879 35.3396 19.4754 35.3396 21.6618C35.3396 23.8978 34.4622 25.8357 33.0485 27.2767C31.6349 28.7177 29.6851 29.6121 27.5404 29.6121C25.3468 29.6121 23.4458 28.7177 22.0322 27.2767C20.6185 25.8357 19.7411 23.8481 19.7411 21.6618C19.7411 19.4754 20.6673 17.4879 22.0322 16.0469Z"
+                fill="#FF94B2"
+              />
+              <path
+                d="M50.5967 46.2083L45.576 39.2021C45.2835 38.8046 44.6986 38.7549 44.3573 39.1027C39.6291 43.2269 33.7797 45.9102 27.4916 45.9102C21.2035 45.9102 15.4029 43.2269 10.6259 39.1027C10.2847 38.8046 9.69972 38.8543 9.40725 39.2021L4.38652 46.2083C4.1428 46.5561 4.19154 47.0033 4.48401 47.3015C8.72482 50.7797 13.6481 53.1648 18.7663 54.407L8.13988 73.4877C7.84741 74.0343 8.23737 74.73 8.82231 74.73H19.205C19.5462 74.73 19.8387 74.5312 19.9361 74.1834L27.3454 57.289L34.7546 74.1834C34.8521 74.4815 35.1446 74.73 35.4858 74.73H45.8684C46.5021 74.73 46.8433 74.084 46.5509 73.4877L35.9245 54.407C41.0427 53.1648 45.9659 50.8791 50.2067 47.3015C50.8404 47.0033 50.8892 46.5561 50.5967 46.2083Z"
+                fill="#FF94B2"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download sticky-section" id="download">
+      <img src="assets/images/download.png" alt="Download Background" class="download-bg" />
+
+      <div class="download-content container">
+        <h2 class="section-title download-title reveal-item">
+          Ваше время в телефоне может спасать жизни
+        </h2>
+        <p class="download-text reveal-item">
+          Не откладывайте. Скачайте РэдПэт, и каждый ваш клик начнёт приносить пользу.
+        </p>
+
+        <div class="download-buttons reveal-item">
+          <a href="#" class="btn btn-ios">Скачать для iOS</a>
+          <a href="#" class="btn btn-site">Посетить сайт</a>
+          <a href="#" class="btn btn-android">Скачать для Android</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-left">
+            <div class="footer-logo">РэдПэт</div>
+            <p class="footer-text">
+              Узнавайте первыми о новинках, специальных мероприятиях, скидках и многом другом
+            </p>
+
+            <div class="footer-icons">
+              <div class="footer-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="69"
+                  height="69"
+                  viewBox="0 0 69 69"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_56_1212)">
+                    <path
+                      d="M0 33.12C0 17.507 0 9.70062 4.85031 4.85031C9.70062 0 17.507 0 33.12 0H35.88C51.493 0 59.2993 0 64.1497 4.85031C69 9.70062 69 17.507 69 33.12V35.88C69 51.493 69 59.2993 64.1497 64.1497C59.2993 69 51.493 69 35.88 69H33.12C17.507 69 9.70062 69 4.85031 64.1497C0 59.2993 0 51.493 0 35.88V33.12Z"
+                      fill="#FF94B2"
+                    />
+                    <path
+                      d="M36.7134 49.7095C20.9872 49.7095 12.0173 38.9283 11.6436 20.9883H19.5211C19.7798 34.1558 25.5872 39.7333 30.1872 40.8833V20.9883H37.605V32.3445C42.1475 31.8558 46.9194 26.6808 48.5294 20.9883H55.947C54.7108 28.0033 49.5358 33.1783 45.8558 35.3058C49.5358 37.0308 55.4298 41.5445 57.6723 49.7095H49.507C47.7533 44.247 43.3837 40.0208 37.605 39.4458V49.7095H36.7134Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_56_1212">
+                      <rect width="69" height="69" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="footer-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="70"
+                  height="70"
+                  viewBox="0 0 70 70"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M35.752 69.8002C28.8824 69.8002 25.69 68.793 20.1408 64.7641C16.6308 69.2966 5.51579 72.8387 5.03102 66.7785C5.03102 62.2294 4.02815 58.3852 2.89156 54.1884C1.53774 49.0179 0 43.26 0 34.9169C0 14.9908 16.2798 0 35.5682 0C54.8732 0 69.9998 15.7294 69.9998 35.1016C70.0646 54.1741 54.742 69.6985 35.752 69.8002ZM36.0362 17.2234C26.6427 16.7366 19.3218 23.2668 17.7005 33.5068C16.3634 41.9843 18.7368 52.3082 20.7592 52.8454C21.7287 53.0804 24.169 51.0996 25.69 49.572C28.2051 51.317 31.1338 52.365 34.1809 52.6104C43.9141 53.0806 52.2308 45.6385 52.8842 35.8739C53.2647 26.0884 45.7707 17.8002 36.0362 17.2402V17.2234Z"
+                    fill="#FF94B2"
+                  />
+                </svg>
+              </div>
+              <div class="footer-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="55"
+                  height="79"
+                  viewBox="0 0 55 79"
+                  fill="none"
+                >
+                  <path
+                    d="M27.4916 39.1524C32.2199 39.1524 36.5094 37.1648 39.5804 34.0344C42.6513 30.904 44.6011 26.5313 44.6011 21.7115C44.6011 16.8916 42.6513 12.5189 39.5804 9.38851C36.5094 6.25808 32.2199 4.27051 27.4916 4.27051C22.7633 4.27051 18.4738 6.25808 15.4028 9.38851C12.3319 12.4692 10.3821 16.8419 10.3821 21.7115C10.3821 26.581 12.3319 30.904 15.4028 34.0344C18.4738 37.1648 22.8121 39.1524 27.4916 39.1524ZM22.0322 16.0469C23.4458 14.6059 25.3955 13.7115 27.5404 13.7115C29.7339 13.7115 31.6349 14.6059 33.0485 16.0469C34.4622 17.4879 35.3396 19.4754 35.3396 21.6618C35.3396 23.8978 34.4622 25.8357 33.0485 27.2767C31.6349 28.7177 29.6851 29.6121 27.5404 29.6121C25.3468 29.6121 23.4458 28.7177 22.0322 27.2767C20.6185 25.8357 19.7411 23.8481 19.7411 21.6618C19.7411 19.4754 20.6673 17.4879 22.0322 16.0469Z"
+                    fill="#FF94B2"
+                  />
+                  <path
+                    d="M50.5967 46.2083L45.576 39.2021C45.2835 38.8046 44.6986 38.7549 44.3573 39.1027C39.6291 43.2269 33.7797 45.9102 27.4916 45.9102C21.2035 45.9102 15.4029 43.2269 10.6259 39.1027C10.2847 38.8046 9.69972 38.8543 9.40725 39.2021L4.38652 46.2083C4.1428 46.5561 4.19154 47.0033 4.48401 47.3015C8.72482 50.7797 13.6481 53.1648 18.7663 54.407L8.13988 73.4877C7.84741 74.0343 8.23737 74.73 8.82231 74.73H19.205C19.5462 74.73 19.8387 74.5312 19.9361 74.1834L27.3454 57.289L34.7546 74.1834C34.8521 74.4815 35.1446 74.73 35.4858 74.73H45.8684C46.5021 74.73 46.8433 74.084 46.5509 73.4877L35.9245 54.407C41.0427 53.1648 45.9659 50.8791 50.2067 47.3015C50.8404 47.0033 50.8892 46.5561 50.5967 46.2083Z"
+                    fill="#FF94B2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="footer-right">
+            <ul class="footer-menu">
+              <li><a href="#about">О нас</a></li>
+              <li><a href="#features">Возможности</a></li>
+              <li><a href="#questions">Вопросы</a></li>
+              <li><a href="#social">Соцсети</a></li>
+              <li><a href="#download">Скачать</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 РэдПэт. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Мобильное меню -->
+    <div class="mobile-menu-overlay" id="mobileMenu">
+      <div class="mobile-menu-header">
+        <button class="mobile-menu-close" aria-label="Закрыть меню">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="9"
+            height="15"
+            viewBox="0 0 9 15"
+            fill="none"
+          >
+            <path
+              d="M8 0.999999L1 7.5L8 14"
+              stroke="#313131"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <span class="mobile-menu-logo">РэдПэт</span>
+      </div>
+      <nav class="mobile-menu-nav">
+        <a href="#about" class="nav-link">О нас</a>
+        <a href="#features" class="nav-link">Возможности</a>
+        <a href="#questions" class="nav-link">Вопросы</a>
+        <a href="#social" class="nav-link">Соцсети</a>
+        <a href="#download" class="nav-link">Скачать</a>
+      </nav>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
